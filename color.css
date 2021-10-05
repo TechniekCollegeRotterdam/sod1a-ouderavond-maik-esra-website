@@ -1,0 +1,23 @@
+.parent{
+    padding: 5px;
+    background-color:rgba(27, 149, 197, 0.945);
+
+
+}
+
+.child{
+    padding: 5px;
+}
+
+.child-one{
+    background-color:chartreuse;
+
+}
+
+.child-two{
+    background-color: crimson;
+}
+
+.child-three{
+  background-color: darkgoldenrod;
+}
