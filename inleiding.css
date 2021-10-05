@@ -62,7 +62,7 @@ text-align: center;
 .nav-container {
   width: 80%;
   margin: 0 auto;
-  float: right;
+  float:  right;
 }
 
 .search-btn:hover {
