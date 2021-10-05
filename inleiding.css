@@ -26,7 +26,9 @@ section {
 .body {
   background-color: green;
 }
-
+.section{
+  position: relative;
+}
 
 .article {
   background-color: white;
@@ -60,12 +62,13 @@ text-align: center;
 .nav-container {
   width: 80%;
   margin: 0 auto;
+  float: right;
 }
 
 .search-btn:hover {
   text-align: center;
   color: black;
-  background-color: green;
+  background-color: lime;
 }
 .header{
   background-color: green;
@@ -117,9 +120,12 @@ border: 10px;
 .nav ul li:hover> ul{
   opacity: 1;
   visibility: visible;
+  display: block;
 }
 nav ul ul li{
   position: relative;
   margin: 0px;
   width: 10px;
+  height: 20px;
+  display: block;
 }
