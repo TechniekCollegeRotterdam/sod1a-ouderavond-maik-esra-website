@@ -1,0 +1,131 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkgreen;
+} 
+
+
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+html,body,h1,h2,ul,li,a,p,
+article,footer,header,main,nav,
+section {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: green;
+}
+.section{
+  position: relative;
+}
+
+.article {
+  background-color: white;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 10%;
+  padding: 0%;
+}
+
+.logo {
+ width: 150px;
+ padding: 10px 0;
+}
+
+.h1 {
+text-align: center;
+
+}
+.div{
+  text-align: center;
+  box-sizing: border-box;
+}
+.search-btn {
+  color: green;
+  background-color: green;
+  text-align: center;
+}
+
+.nav-container {
+  width: 80%;
+  margin: 0 auto;
+  float:  right;
+}
+
+.search-btn:hover {
+  text-align: center;
+  color: black;
+  background-color: lime;
+}
+.header{
+  background-color: green;
+
+}
+.nav{
+opacity: 1;
+position: fixed;
+float: right;
+top: 0;
+}
+header:after{
+content: '';
+clear: both;
+display: table;
+}
+.nav ul{
+  float: right;
+  list-style: none;
+position: relative;
+}
+.nav ul li{
+  display: inline-block;
+  background-color:(limegreen);
+  margin: 0 5px;
+}
+.nav ul li a{
+color: rgb(0, 63, 0);
+text-decoration: none;
+line-height: 80px;
+font-size: 20px; 
+padding:  15px 10px ;
+border: 10px;
+}
+.nav ul li a:hover{
+  border-radius: 20px;
+  box-shadow: 0 0 20px #51db27,
+              0 0 20px #1c5809;
+
+}
+.nav ul ul{
+  position: absolute;
+  width: 110px;
+  top: 80px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+.nav ul li:hover> ul{
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 10px;
+  height: 20px;
+  display: block;
+}

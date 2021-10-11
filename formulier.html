@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\xampp\htdocs\project website\inleiding.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <img src="logo.png" class="logo">
+        <h1 class="h1">Formulier</h1>
+            <section class="nav-container">
+            <nav class="nav">
+                <ul>
+                    <a href="C:\xampp\htdocs\project website\inleiding.html">Home inleiding</a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="article">
+        <form action="verwerk.php"  method="post">
+            <ul>
+                <fieldset>
+                    <li>
+                        <label for="text">Voor- en achternaam</label>
+                        <br>
+                        <input id="text" type="text" name="text" autofocus>
+                    </li>
+                    <li>
+                        <label for="email">E-mailadres</label>
+                        <br>
+                        <input id="email" type="email" name="email">
+                    </li>
+                    <li>
+                        <legend>Aantal bezoekers die u heeft meegenomen</legend>
+                        <br>
+                        <label for="opt4"><input id="opt4" type="radio" name="mw" value="alleen">alleen</label>
+                        <label for="opt5"><input id="opt5" type="radio" name="mw" value="twee">twee personen</label>
+                    </li>
+                    <li>
+                        <label for="mening">Opmerkingen:</label>
+                        <br>
+                        <textarea id="mening" name="mening" rows="5"></textarea>
+                    </li>
+                </fieldset>
+            </ul>
+            <input type="reset" value="Herstellen">
+            <input type="submit" value="Versturen">
+        </form>
+    </main>
+</body>
+<footer>
+
+</footer>
+
+</html>
