@@ -175,6 +175,12 @@ header:after {
 .nav ul ul li {
   display: block;
 }
+.voorbeeld{
+  margin-right: 0;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 0;
+}
 
 .test {
   width: 100% !important;
