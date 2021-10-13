@@ -1,11 +1,12 @@
 @charset "UTF-8";
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(2, 0, 3);
-} 
+}
 
 
 footer,
@@ -17,8 +18,19 @@ section {
 }
 
 
-html,body,h1,h2,ul,li,a,p,
-article,footer,header,main,nav,
+html,
+body,
+h1,
+h2,
+ul,
+li,
+a,
+p,
+article,
+footer,
+header,
+main,
+nav,
 section {
   padding: 0;
   margin: 0;
@@ -27,7 +39,8 @@ section {
 .body {
   background-color: green;
 }
-.section{
+
+.section {
   position: relative;
 }
 
@@ -42,32 +55,33 @@ section {
 }
 
 .logo {
- width: 150px;
- padding: 10px 0;
- position: fixed;
- top: 0;
+  width: 150px;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
 }
 
 .h1 {
-text-align: center;
+  text-align: center;
 }
 
-.h22{
-padding: 5% 0%;
+.h22 {
+  padding: 5% 0%;
 
 }
 
-.main{
+.main {
   margin-top: 0;
-  
+
 }
-.div{
+
+.div {
   text-align: center;
   box-sizing: border-box;
- 
+
 }
+
 .search-btn {
-  color: green;
   background-color: green;
   text-align: center;
 }
@@ -81,51 +95,59 @@ padding: 5% 0%;
 .search-btn:hover {
   text-align: center;
   color: black;
-  background-color: lime;
+  background-color: #00ff00;
 }
-.header{
+
+.header {
   background-color: green;
 
 }
-.nav{
-opacity: 1;
-position: fixed;
-float: right;
-top: 0;
-z-index: 1;
+
+.nav {
+  opacity: 1;
+  position: fixed;
+  float: right;
+  top: 0;
+  z-index: 1;
 }
-header:after{
-content: '';
-clear: both;
-display: table;
+
+header:after {
+  content: '';
+  clear: both;
+  display: table;
 }
-.nav ul{
+
+.nav ul {
   float: right;
   list-style: none;
-position: relative;
+  position: relative;
 }
-.nav ul li{
+
+.nav ul li {
   display: inline-block;
-  background-color:(limegreen);
+  background-color: (limegreen);
   margin: 0 5px;
 }
-.nav ul li a{
-color: rgb(8, 8, 8);
-text-decoration: none;
-line-height: 80px;
-font-size: 20px; 
-padding:  10px 15px ;
-border: 10px;
-background-color: green;
+
+.nav ul li a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  line-height: 80px;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 10px;
+  background-color: green;
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
   border-radius: 20px;
   box-shadow: 0 0 20px #5cf32d,
-              0 0 20px  green;
-             
+    0 0 20px green;
+
 
 }
-.nav ul ul{
+
+.nav ul ul {
   position: absolute;
   width: 110px;
   top: 80px;
@@ -133,7 +155,8 @@ background-color: green;
   visibility: hidden;
   transition: top .3s;
 }
-.nav ul li:hover> ul{
+
+.nav ul li:hover>ul {
   opacity: 1;
   visibility: visible;
   display: block;
@@ -144,5 +167,5 @@ background-color: green;
 }
 
 .test {
-  width: 100%!important;
+  width: 100% !important;
 }

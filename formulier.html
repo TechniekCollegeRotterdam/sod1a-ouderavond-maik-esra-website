@@ -6,29 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulier</title>
-    <link rel="stylesheet" href="C:\xampp\htdocs\project website\inleiding.css">
+    <link rel="stylesheet" href="inleiding.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <h2 class="h22">Formulier</h2>
-        <a href="C:\xampp\htdocs\project website\index.html"> 
-        <img src="logo.png" alt="logo" class="logo"></a>
-        
-            <section class="nav-container">
+        <h1 class="h22">Formulier</h1>
+        <a href="index.html">
+            <img src="logo.png" alt="logo" class="logo"></a>
+
+        <section class="nav-container">
             <nav class="nav">
                 <ul class="ul">
-                   <li> <a href="C:\xampp\htdocs\project website\inleiding.html">Home inleiding</a></li>
+                    <li> <a href="inleiding.html">Home inleiding</a></li>
                 </ul>
             </nav>
         </section>
-        
-    </header> 
+
+    </header>
     <main class="article">
-      <h1 class="h1">Formulier</h1>
-        <form action="verwerk.php"  method="post">
+        <h2 class="h1">Formulier</h2>
+        <legend>Aantal bezoekers die u heeft meegenomen</legend>
+        <form action="verwerk.php" method="post">   
+            <fieldset>
             <ul>
-                <fieldset>
                     <li>
                         <label for="text">Voor- en achternaam</label>
                         <br>
@@ -39,9 +40,11 @@
                         <br>
                         <input id="email" type="email" name="email">
                     </li>
+                </ul>
+                   
+                   <br>
+                   <ul>
                     <li>
-                        <legend>Aantal bezoekers die u heeft meegenomen</legend>
-                        <br>
                         <label for="opt4"><input id="opt4" type="radio" name="mw" value="alleen">alleen</label>
                         <label for="opt5"><input id="opt5" type="radio" name="mw" value="twee">twee personen</label>
                     </li>
@@ -49,16 +52,14 @@
                         <label for="mening">Opmerkingen:</label>
                         <br>
                         <textarea id="mening" name="mening" rows="5"></textarea>
-                    </li>
-                </fieldset>
+                    </li>     
             </ul>
+            </fieldset>
             <input type="reset" value="Herstellen">
             <input type="submit" value="Versturen">
         </form>
     </main>
-</body>
 <footer>
-
 </footer>
-
+</body>
 </html>
